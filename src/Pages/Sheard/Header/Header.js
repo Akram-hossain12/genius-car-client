@@ -8,7 +8,8 @@ const Header = () => {
 
         <li className='hover:text-xl ease-in font-semibold'><Link to='/'>Home</Link></li>
         <li className='hover:text-xl ease-in font-semibold'><Link to='/about'>About</Link></li>
-
+        <li className='hover:text-xl ease-in font-semibold'><Link to='/login'>LogIn</Link></li>
+         
     </>
     return (
         <div className="navbar bg-base-200 py-5">
